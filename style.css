@@ -31,7 +31,7 @@ body {
     display: inline-block;
     background: transparent;
     max-width: 200px;
-    border: 1px solid #75D4CA;
+    border: 1px solid #9942e0;
     outline: none;
   }
   
@@ -47,27 +47,27 @@ body {
   /****************/
   
   .bar {
-    fill: #3C948B;
+    fill: #4693da;
   }
   
   .bar:hover {
-    fill: #327972;
+    fill: #e83f28;
   }
   
   .axis {
-    font: 10px sans-serif;
+    font: 10px monospace;
   }
   
   .axis path,
   .axis line,
   .domain {
-    fill: none;
+    fill: #e3fa3a;
     stroke: #000;
     shape-rendering: crispEdges;
   }
   
   .x-axis path {
-    display: none;
+    display: outside;
   }
   
   .x-axis text {
@@ -75,7 +75,7 @@ body {
   }
   
   .axis-title {
-      fill: #888;
+      fill: rgb(94, 88, 88);
       font-size: 12px;
   }
   
